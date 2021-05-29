@@ -37,6 +37,8 @@ git push -u origin master ==> 本地仓库内容 push 到远程仓库
 
 git clone 克隆地址 ==> 把代码克隆到当前文件夹
 
+重新打开git命令行  git pull 可以拉取远程仓库代码
+
 
 git push ==> 提交代码
 git pull ==> 拉取代码
