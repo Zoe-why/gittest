@@ -48,7 +48,20 @@ git checkout 分支名称 ==> 切换到分支
 
 git branch 分支名称 ==> 创建分支
 
+要合并到哪里就先切换到哪个分支
 
+git merge dev 合并dev到当前分支
+
+在码云上传代码的时候, 合并分支的时候, 有时候会遇到以下的问题:
+
+　　Please enter a commit message to explain why this merge is necessary,
+　　# especially if it merges an updated upstream into a topic branch.
+
+　　这个时候页面仿佛被锁住一样,, 不能进行任何操作, 在网上查找问题之后, 有两个解决办法:
+
+第一个 按键盘上的 I 键盘 , 但是不太好使, 第二种方法亲测好用
+
+第二种方法:  按下esc 键后,  输入 :wq   解决
 
 
 
