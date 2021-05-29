@@ -68,6 +68,8 @@ git branch -d 分支名称  删除分支
 
 git log --graph 查看分支合并图
 
+git stash ==> 保存当前的状态  切换到其他分支用
+
 
 
 
