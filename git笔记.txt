@@ -33,8 +33,9 @@ init 之后
 
 git remote add origin https://github.com/Zoe-why/girtest.git ==> 设置远程仓库
 
+git push -u origin master ==> 本地仓库内容 push 到远程仓库
 
-git clone 地址 ==> 把代码克隆到当前文件夹
+git clone 克隆地址 ==> 把代码克隆到当前文件夹
 
 
 git push ==> 提交代码
