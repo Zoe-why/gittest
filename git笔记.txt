@@ -1,0 +1,58 @@
+在需要管理代码的地方 右键 选择git base here
+
+输入指令 git init ==> 建立版本库
+
+git status ==> 查看git状态
+
+git add 文件名 ==> 把当前文件添加到暂存区
+git add *  ==> 添加所有文件
+
+git commit -m '版本描述' ==> 放到本地仓库
+
+git log 查看版本切换记录
+
+
+/****版本回退****/
+git reset --hard HEAD^ 回到上个版本  往上返几个版本，加几个^
+git reset --hard '需要返回的版本commit前几位'   回到需要返回的版本
+
+
+git reflog 查看之前使用的git命令
+
+git diff ==> 查看修改的东西
+
+git restore 文件名 ==> 没有 git add之前 撤销修改
+
+git restore --staged 文件名 ==> git add 之后，撤销修改
+
+git rm 文件名 ==> 删除文件
+
+github官网，创新新仓库 New repository
+
+init 之后
+
+git remote add origin https://github.com/Zoe-why/girtest.git ==> 设置远程仓库
+
+
+git clone 地址 ==> 把代码克隆到当前文件夹
+
+
+git push ==> 提交代码
+git pull ==> 拉取代码
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
