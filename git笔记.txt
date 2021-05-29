@@ -43,7 +43,10 @@ git clone 克隆地址 ==> 把代码克隆到当前文件夹
 git push ==> 提交代码
 git pull ==> 拉取代码
 
+git checkout -b dev ==> 创建并切换到dev分支
+git checkout 分支名称 ==> 切换到分支
 
+git branch 分支名称 ==> 创建分支
 
 
 
